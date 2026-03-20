@@ -1,0 +1,17 @@
+# chaild-ai.github.io
+
+Website for the CHAILD project, hosted at chaild.org
+
+Site published from gh-pages branch, no Jekyll
+
+### To publish changes:
+
+Install gh-pages
+
+``npm install gh-pages --save-dev``
+
+Deploy to gh-pages
+
+``npm run deploy``
+
+**Remember to push local changes to main**
