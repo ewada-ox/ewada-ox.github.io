@@ -4,12 +4,13 @@
 
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
+import homephoto from "./assets/img/banners/oms.PNG"; // Rename to your file name for custom animation
 
 // Splash Screen
 
 const splashScreen = {
-  enabled: true, // set false to disable splash screen
-  animation: splashAnimation,
+  enabled: false, // set false to disable splash screen
+  animation: homephoto,
   duration: 2000 // Set animation duration as per your animation
 };
 
@@ -20,10 +21,10 @@ const illustration = {
 };
 
 const greeting = {
-  username: "CHAILD",
-  title: "Hi, Welcome to CHAILD",
+  username: "EWADA",
+  title: "Hi, Welcome to EWADA",
   subTitle: emoji(
-    "A UKRI research project defining and designing children's agency in the age of AI"
+    "An Oxford Martin School project that seeks to reform the concentration of power on the Web."
   ),
   resumeLink: true,
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -37,17 +38,14 @@ const skillsSection = {
   subTitle: "Our missions",
   skills: [
     emoji(
-      "⚡ Defining children’s critical agency in the digital context"
+      "⚡ Data Autonomy: How can we support individuals to control, manage, maintain and use personal data?"
     ),
-    emoji("⚡ Establishing approaches to assess the impact on agency"),
+    emoji("⚡ Data Privacy: How can we provide privacy-preserving machine learning (PPML) methods that can perform AI training in a decentralised way?"),
     emoji(
-      "⚡ Developing design principles for agency"
-    ),
-    emoji(
-      "⚡ Creating new guidelines for parental and educational support"
+      "⚡ Accountability: How can we develop methods to assess whether AI or algorithmic decision making is fair, equitable and complies with regulatory requirements?"
     ),
     emoji(
-      "⚡ Formulating policy recommendations to prioritise children’s agency"
+      "⚡ Data Sharing: How can we explore new institutional and legal constructs within which to hold data or algorithmic outputs? "
     )
   ],
 
@@ -140,18 +138,12 @@ const openSource = {
   display: false // Set false to hide this section, defaults to true
 };
 
-const socialMediaLinks = {
-  twitter: "https://x.com/oxfordccai",
-  github: "https://github.com/OxfordHCC",
-  display: true // Set true to display this section, defaults to false
-};
 
 
 export {
+  splashScreen,
   illustration,
   greeting,
-  splashScreen,
-  socialMediaLinks,
   skillsSection,
   peopleSection,
   blogSection,

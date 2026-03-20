@@ -84,7 +84,7 @@ export default function Blogs() {
                       key={i}
                       isDark={isDark}
                       blog={{
-                        url: `/blog/${blog.slug}`,
+                        url: `/content/blog/${blog.slug}`,
                         image: blog.image,
                         title: blog.title,
                         description: blog.description

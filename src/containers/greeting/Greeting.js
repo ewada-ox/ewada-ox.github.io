@@ -3,6 +3,7 @@ import {Fade} from "react-reveal";
 import emoji from "react-easy-emoji";
 import "./Greeting.scss";
 import landingPerson from "../../assets/lottie/MainScene";
+import landingLogo from "../../assets/lottie/landingPerson";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import Button from "../../components/button/Button";
 import {illustration, greeting} from "../../portfolio";
@@ -24,7 +25,6 @@ export default function Greeting() {
               >
                 {" "}
                 {greeting.title}{" "}
-                <span className="wave-emoji">{emoji("👋")}</span>
               </h1>
               <p
                 className={
@@ -35,29 +35,14 @@ export default function Greeting() {
               >
                 {greeting.subTitle}
               </p>
-              <div className="button-greeting-div">
-                
-                {greeting.resumeLink && (
-                  <a
-                    href={require("./WhitePaper.pdf")}
-                    download="CHAILDWhitePaper.pdf"
-                    className="download-link-button"
-                  >
-                    <Button text="Download our white paper" />
-                  </a>
-                )}
-              </div>              
             </div>
           </div>
           <div className="greeting-image-div">
-            {illustration.animated ? (
-              <DisplayLottie animationData={landingPerson} />
-            ) : (
-              <img
+          <img
                 alt="man sitting on table"
-                src={require("../../assets/images/manOnTable.svg")}
+                src={require("../../assets/img/blog/oms.jpg")}
               ></img>
-            )}
+            
           </div>
         </div>
       </div>
