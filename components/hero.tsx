@@ -23,9 +23,11 @@ export function Hero() {
               {'Ethical Web and Data Infrastructure in the Age of AI (EWADA) is an ambitious 3-year programme funded by the Oxford Martin School.Its mission is to reform the concentration of power on the World Wide Web by developing and deploying new forms of technical and legal infrastructure.'}
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button asChild size="lg" className="text-lg px-8 py-6">
-                <Link href="https://www.oxfordmartin.ox.ac.uk/ethical-web-and-data-architectures">{'Learn More About EWADA'}</Link>
-              </Button>
+              <Button oms variant="outline" size="lg">
+              <Link href="https://www.oxfordmartin.ox.ac.uk" target="_blank" rel="noopener noreferrer">
+                {'Learn More About EWADA'} <ExternalLink className="ml-2" size={20} />
+              </Link>
+            </Button>
             </div>
           </div>
         </div>
