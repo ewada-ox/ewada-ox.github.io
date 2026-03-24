@@ -11,8 +11,9 @@ export function Header() {
   const navItems = [
     { href: '/', label: 'Home' },
     { href: '/news', label: 'News' },
+    { href: '/publications', label: 'Resources' },
     { href: '/resources', label: 'Resources' },
-    { href: 'https://oxfordccai.org/', label: 'About OxfordCCAI', external: true }
+    { href: '/people', label: 'About', external: true }
   ]
 
   return (
@@ -21,7 +22,7 @@ export function Header() {
         <div className="flex h-20 items-center justify-between">
           <Link href="/" className="flex items-center space-x-2">
             <span className="text-2xl md:text-3xl font-bold">
-              {'AI Ethical Design'}
+              {'The EWADA Project'}
             </span>
           </Link>
 
