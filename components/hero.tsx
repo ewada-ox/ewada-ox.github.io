@@ -14,7 +14,7 @@ export function Hero() {
       </div>
 
       <div className="container mx-auto px-4 max-w-7xl relative z-10">
-        <div className="grid lg:grid-cols-1 gap-12 items-center">
+        <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
             <h1 className="text-3xl md:text-3xl lg:text-3xl font-bold leading-tight text-balance">
               {'Ethical Web and Data Infrastructure in the Age of AI'}
