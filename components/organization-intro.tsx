@@ -9,17 +9,17 @@ export function OrganizationIntro() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-4xl md:text-5xl font-bold mb-6 text-balance">
-              {'Oxford Child-Centred AI'}
+              {'The EWADA Project'}
             </h2>
             <p className="text-lg leading-relaxed mb-4 text-pretty">
-              {'The Oxford Child-Centred AI (OxfordCCAI) Design Lab engages in research activities aimed at designing better AI for children. We are part of the Human-Centred Computing research theme at the Department of Computer Science at the University of Oxford.'}
+              {'Ethical Web and Data Infrastructure in the Age of AI (EWADA) is an ambitious 3-year programme funded by the [Oxford Martin School](https://www.oxfordmartin.ox.ac.uk) (OMS).'}
             </p>
             <p className="text-lg leading-relaxed mb-6 text-pretty">
-              {'We collaborate with organizations both in the UK and internationally to examine the ways that AI impacts children\'s experiences and their digital rights, and how we can design technologies fostering children\'s rights and agency.'}
+              {'Its mission is to *reform the concentration of power on the World Wide Web* by developing and deploying new forms of technical and legal infrastructure.'}
             </p>
             <Button asChild variant="outline" size="lg">
-              <Link href="https://oxfordccai.org/" target="_blank" rel="noopener noreferrer">
-                {'Learn More About OxfordCCAI'} <ExternalLink className="ml-2" size={20} />
+              <Link href="https://www.oxfordmartin.ox.ac.uk" target="_blank" rel="noopener noreferrer">
+                {'Learn More About EWADA'} <ExternalLink className="ml-2" size={20} />
               </Link>
             </Button>
           </div>
