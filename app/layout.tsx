@@ -13,9 +13,9 @@ export const viewport: Viewport = {
 }
 
 export const metadata: Metadata = {
-  title: 'AI Ethical Design - Building Child-Centered AI Systems',
-  description: 'Join researchers, practitioners, policy makers, and educators in creating ethical AI systems that protect and empower children. Part of Oxford Child-Centred AI Design Lab.',
-  keywords: 'AI ethics, child-centered design, digital rights, children safety, AI research, Oxford CCAI',
+  title: 'EWADA - Building Ethical Web and Data Infrastructure in the Age of AI',
+  description: 'Reform the concentration of power on the World Wide Web* by developing and deploying new forms of technical and legal infrastructure.',
+  keywords: 'AI ethics, data autonomy, privacy preserving computation, Oxford Martin School',
 }
 
 export default function RootLayout({
