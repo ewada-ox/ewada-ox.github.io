@@ -7,8 +7,8 @@ export function Hero() {
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-background via-background to-muted" />
         <img
-          src="/diverse-children-using-tablets-and-digital-devices.jpg"
-          alt="Children engaging with technology"
+          src="/AdobeStock_217485588.jpeg"
+          alt="Mobile and web"
           className="w-full h-full object-cover opacity-20"
         />
       </div>
