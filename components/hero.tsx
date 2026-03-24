@@ -28,26 +28,6 @@ export function Hero() {
               </Button>
             </div>
           </div>
-
-          <div className="relative">
-            <div className="relative aspect-square rounded-2xl overflow-hidden shadow-2xl">
-              <img
-                src="/young-child-looking-thoughtfully-at-screen-with-ge.jpg"
-                alt="Child-centered AI design"
-                className="w-full h-full object-cover"
-              />
-            </div>
-            <div className="absolute -bottom-4 -left-3 bg-card p-5 rounded-xl shadow-xl max-w-md border-2">
-              <p className="text-lg font-semibold text-balance" style={{ color: '#c5e5dd' }}>
-                <Link href="https://www.nature.com/articles/s41586-024-07270-x" target="_blank" rel="noopener noreferrer" className="hover:underline">
-                  {'"Children\'s distinct rights and needs demand far more than general AI principles. They require a truly child-centred approach."'}
-                </Link>
-              </p>
-              <p className="text-sm mt-2" style={{ color: '#c5e5dd' }}>
-                {'Dr. Jun Zhao, Principal Investigator'}
-              </p>
-            </div>
-          </div>
         </div>
       </div>
     </section>
