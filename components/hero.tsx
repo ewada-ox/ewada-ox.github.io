@@ -1,3 +1,4 @@
+import { ExternalLink } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import Link from 'next/link'
 
@@ -23,9 +24,9 @@ export function Hero() {
               {'Ethical Web and Data Infrastructure in the Age of AI (EWADA) is an ambitious 3-year programme funded by the Oxford Martin School.Its mission is to reform the concentration of power on the World Wide Web by developing and deploying new forms of technical and legal infrastructure.'}
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button oms variant="outline" size="lg">
+              <Button asChild variant="outline" size="lg">
               <Link href="https://www.oxfordmartin.ox.ac.uk" target="_blank" rel="noopener noreferrer">
-                {'Learn More About EWADA'} <ExternalLink className="ml-2" size={20} />
+                {'Learn More About EWADA'} <ExternalLink className="ml-2" size={30} />
               </Link>
             </Button>
             </div>
