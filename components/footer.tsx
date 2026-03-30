@@ -19,6 +19,7 @@ export function Footer() {
               <li><Link href="/" className="hover:text-secondary">{'Home'}</Link></li>
               <li><Link href="/news" className="hover:text-secondary">{'News'}</Link></li>
               <li><Link href="/resources" className="hover:text-secondary">{'Resources'}</Link></li>
+              <li><Link href="/publications" className="hover:text-secondary">{'Publications'}</Link></li>
             </ul>
           </div>
           

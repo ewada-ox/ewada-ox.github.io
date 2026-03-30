@@ -13,7 +13,7 @@ export function Header() {
     { href: '/news', label: 'News' },
     { href: '/publications', label: 'Publications' },
     { href: '/resources', label: 'Resources' },
-    { href: '/people', label: 'About', external: true }
+    { href: '/about', label: 'About'}
   ]
 
   return (

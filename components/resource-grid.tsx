@@ -24,11 +24,12 @@ const resources: ResourceSection[] = [
     id: 'code',
     icon: BookOpen,
     items: [
-      { title: 'SOLID Simply Explained', type: 'link', href: 'https://www.youtube.com/watch?v=qWVTjMsv7AE&ab_channel=SimplyExplained',external: true },
-      { title: 'SOLID Research Paper', type: 'File', href: 'http://emansour.com/research/lusail/solid_protocols.pdf',external: true },
-      { title: 'SOLID Project on GitHub', type: 'link', href: 'https://github.com/solid',external: true },
-      { title: 'Slides: Solid: taking back the Web through decentralization by Ruben Verborgh', type: 'link', href: 'https://rubenverborgh.github.io/Slides-FOSDEM-2019/',external: true },
-      { title: 'Paradigm shifts for the decentralized Web', type: 'link', href: 'https://ruben.verborgh.org/blog/2017/12/20/paradigm-shifts-for-the-decentralized-web/',external: true },  
+      { title: 'Libertas: Privacy preserving MPC', type: 'link', href: 'https://github.com/OxfordHCC/libertas',external: true },
+      { title: 'Data Terms of Use', type: 'File', href: 'https://github.com/OxfordHCC/solid-dtou',external: true },
+      { title: 'CHAIToK', type: 'link', href: 'https://github.com/OxfordHCC/chaitok',external: true },
+      { title: 'CHAIMedia: Sharing social posts across platforms', type: 'link', href: 'https://github.com/OxfordHCC/solid-media/tree/chaimedia',external: true },
+      { title: 'SolidFlix: movie sharing on Solid', type: 'link', href: 'https://github.com/OxfordHCC/solid-media',external: true },  
+      { title: 'PoliRep: Automated Privacy Policy Analysis Framework', type: 'link', href: 'https://github.com/OxfordHCC/PoliRep',external: true },  
     ]
   },
   {
