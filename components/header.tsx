@@ -32,8 +32,6 @@ export function Header() {
               <Link
                 key={item.href}
                 href={item.href}
-                target={item.external ? '_blank' : undefined}
-                rel={item.external ? 'noopener noreferrer' : undefined}
                 className="text-lg font-medium hover:text-secondary transition-colors"
               >
                 {item.label}
@@ -58,8 +56,6 @@ export function Header() {
               <Link
                 key={item.href}
                 href={item.href}
-                target={item.external ? '_blank' : undefined}
-                rel={item.external ? 'noopener noreferrer' : undefined}
                 className="block text-lg font-medium py-2 hover:text-secondary transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
