@@ -69,11 +69,11 @@ const resources: ResourceSection[] = [
     id: 'tutorials:',
     icon: Download,
     items: [
-      { title: 'Getting started as a Solid developer', href: 'https://solidproject.org/developers/tutorials/getting-started',external: true },
-      { title: 'solidcommunity.net Walkthrough - User guide', href: 'https://github.com/SolidOS/userguide',external: true },
-      { title: 'Hosting a Web Page On Your Pod', href: 'https://solid.gitbook.io/solid-hacks/static-pages/hosting-a-web-page-on-your-pod',external: true },
-      { title: 'Building your first Solid app', href: 'https://solidproject.org//developers/tutorials/first-app',external: true },
-      { title: 'How to Build a Solid To-Do App with React', href: 'https://www.freecodecamp.org/news/create-a-solid-to-do-app-with-react/?ref=morioh.com&utm_source=morioh.com',external: true }
+      { title: 'Getting started as a Solid developer', type: 'link', href: 'https://solidproject.org/developers/tutorials/getting-started',external: true },
+      { title: 'solidcommunity.net Walkthrough - User guide', type: 'link', href: 'https://github.com/SolidOS/userguide',external: true },
+      { title: 'Hosting a Web Page On Your Pod', type: 'link', href: 'https://solid.gitbook.io/solid-hacks/static-pages/hosting-a-web-page-on-your-pod',external: true },
+      { title: 'Building your first Solid app', type: 'link', href: 'https://solidproject.org//developers/tutorials/first-app',external: true },
+      { title: 'How to Build a Solid To-Do App with React', type: 'link', href: 'https://www.freecodecamp.org/news/create-a-solid-to-do-app-with-react/?ref=morioh.com&utm_source=morioh.com',external: true }
     ]
   }
 ]
