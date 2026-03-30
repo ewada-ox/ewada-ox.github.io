@@ -37,8 +37,7 @@ const resources: ResourceSection[] = [
     id: 'documentation',
     icon: FileText,
     items: [
-      { title: 'Solid Developer Tools and Libraries', type: 'link', href: 'https://github.com/solid/solidproject.org/blob/main/_posts/developers/apps/tools/2019-01-01-00_overview.md#authentication',external: true },
-      { title: 'Solid UI React Docs', type: 'link', href: 'https://solid-ui-react.docs.inrupt.com/?path=/story/intro--page',external: true },
+      { title: 'Solid Developer Tools and Libraries', type: 'link', href: 'https://github.com/solid/solidproject.org/tree/main/for_developers',external: true },
       { title: 'Solid Client Libraries Docs', type: 'link', href: 'https://docs.inrupt.com/developer-tools/javascript/client-libraries/',external: true },
       { title: 'solid-client-authn', type: 'link', href: 'https://docs.inrupt.com/developer-tools/javascript/client-libraries/authentication/',external: true },
       { title: 'Web Access Control Spec', type: 'link', href: 'https://solid.github.io/web-access-control-spec/',external: true },

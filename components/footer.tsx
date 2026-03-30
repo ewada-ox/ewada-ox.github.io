@@ -51,7 +51,7 @@ export function Footer() {
         </div>
         
         <div className="border-t pt-8 text-center text-sm text-muted-foreground">
-          <p>{'© 2025 EWADA. Part of Oxford Martin School Programme.'}</p>
+          <p>{'© 2026 EWADA. Part of Oxford Martin School Programme.'}</p>
         </div>
       </div>
     </footer>

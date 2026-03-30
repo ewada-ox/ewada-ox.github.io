@@ -118,7 +118,16 @@ export function HighlightsCarousel() {
               <p className="text-lg leading-relaxed text-pretty">
                 {current.description}
               </p>
-              <Button variant="outline">{'Read More'}</Button>
+              
+              <Button asChild variant="ghost" variant="outline" size="sm">
+                  <a
+                    href={current.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label={'Read More'}
+                  >Read more
+                  </a>
+              </Button>
             </div>
           </div>
 
