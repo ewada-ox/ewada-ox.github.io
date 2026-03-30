@@ -21,7 +21,7 @@ export function Hero() {
               {'Ethical Web and Data Infrastructure in the Age of AI'}
             </h1>
             <p className="text-xl md:text-2xl leading-relaxed text-pretty max-w-2xl">
-              {'Ethical Web and Data Infrastructure in the Age of AI (EWADA) is an ambitious 3-year programme funded by the Oxford Martin School.Its mission is to reform the concentration of power on the World Wide Web by developing and deploying new forms of technical and legal infrastructure.'}
+              {'Ethical Web and Data Infrastructure in the Age of AI (EWADA) is an ambitious 3-year programme funded by the Oxford Martin School. Its mission is to reform the concentration of power on the World Wide Web by developing and deploying new forms of technical and legal infrastructure.'}
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button asChild variant="outline" size="lg">

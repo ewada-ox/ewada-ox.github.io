@@ -9,7 +9,7 @@
   --color-white: 255 255 255;
   --color-cream: 250 249 246; /* soft alternative bg */
   
-  --color-background: var(--color-mint);
+  --color-background: var(--color-white);
   --color-foreground: var(--color-teal);
   --color-card: var(--color-white);
   --color-card-foreground: var(--color-teal);

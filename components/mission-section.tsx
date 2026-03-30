@@ -1,21 +1,26 @@
-import { Briefcase, Scale, Users } from 'lucide-react'
+import { Award, Book, Scale, Users } from 'lucide-react'
 import { Card } from '@/components/ui/card'
 
 const missions = [
   {
-    icon: Briefcase,
-    title: 'Externalise agency in the design',
-    description: 'Understand how designers conceptualise and apply agency in practice.'
+    icon: Award,
+    title: 'Data Autonomy',
+    description: 'How can we support individuals to control, manage, maintain and use personal data?'
   },
   {
     icon: Users,
-    title: 'Cocreate practical design support',
-    description: 'Co-create a practical toolkit to support agency-oriented design'
+    title: 'Data Privacy',
+    description: 'How can we provide privacy-preserving machine learning (PPML) methods that can perform AI training in a decentralised way?'
   },
   {
     icon: Scale,
-    title: 'Evaluate and reflection',
-    description: 'Evaluate how this toolkit integrates with and strengthens existing design processes '
+    title: 'Accountability',
+    description: 'How can we develop methods to assess whether AI or algorithmic decision making is fair, equitable and complies with regulatory requirements?'
+  },
+  {
+    icon: Book,
+    title: 'Data Sharing',
+    description: 'How can we explore new institutional and legal constructs within which to hold data or algorithmic outputs? '
   },
 ]
 
@@ -28,11 +33,11 @@ export function MissionSection() {
             {'Our mission'}
           </h2>
           <p className="text-xl max-w-3xl mx-auto leading-relaxed text-pretty">
-            {'We aim to cretae a systematic and practical process of supporting designers thinking about and applying designing for agency.'}
+            {'We aim to reform the concentration of power on the World Wide Web by developing and deploying new forms of technical and legal infrastructure.'}
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-4 gap-8">
           {missions.map((mission, index) => {
             const Icon = mission.icon
             return (
@@ -42,7 +47,7 @@ export function MissionSection() {
                     <Icon className="w-6 h-6 text-primary" />
                   </div>
                   <div>
-                    <h3 className="text-2xl font-bold mb-2">{mission.title}</h3>
+                    <h3 className="text-xl font-bold mb-2">{mission.title}</h3>
                   </div>
                 </div>
                 <p className="text-lg leading-relaxed mb-6 text-pretty">

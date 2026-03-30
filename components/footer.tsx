@@ -7,9 +7,9 @@ export function Footer() {
       <div className="container mx-auto px-4 max-w-7xl">
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           <div>
-            <h3 className="font-bold text-lg mb-4">{'AI Ethical Design'}</h3>
+            <h3 className="font-bold text-lg mb-4">{'EWADA'}</h3>
             <p className="text-sm leading-relaxed text-pretty">
-              {'Building ethical AI systems that protect and empower children'}
+              {'Building Ethical Web and Data Infrastructure'}
             </p>
           </div>
           
@@ -33,16 +33,16 @@ export function Footer() {
           </div>
           
           <div>
-            <h4 className="font-semibold mb-4">{'Partners'}</h4>
+            <h4 className="font-semibold mb-4">{'External'}</h4>
             <ul className="space-y-2 text-sm">
               <li>
-                <a href="https://www.lego.com/en-gb/aboutus/lego-group?locale=en-gb" target="_blank" rel="noopener noreferrer" className="hover:text-secondary flex items-center gap-1">
-                  {'LEGO Group'} <ExternalLink size={14} />
+                <a href="https://www.oxfordmartin.ox.ac.uk/" target="_blank" rel="noopener noreferrer" className="hover:text-secondary flex items-center gap-1">
+                  {'Oxford Martin School'} <ExternalLink size={14} />
                 </a>
               </li>
               <li>
                 <a href="https://famstudio.co/" target="_blank" rel="noopener noreferrer" className="hover:text-secondary flex items-center gap-1">
-                  {'FAM Studio'} <ExternalLink size={14} />
+                  {'EWADA @ OMS'} <ExternalLink size={14} />
                 </a>
               </li>
             </ul>
@@ -50,7 +50,7 @@ export function Footer() {
         </div>
         
         <div className="border-t pt-8 text-center text-sm text-muted-foreground">
-          <p>{'© 2025 AI Ethical Design. Part of Oxford Child-Centred AI Design Lab.'}</p>
+          <p>{'© 2025 EWADA. Part of Oxford Martin School Programme.'}</p>
         </div>
       </div>
     </footer>
