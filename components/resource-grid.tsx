@@ -17,57 +17,62 @@ type ResourceSection = {
   items: ResourceItem[]
 }
 
+
 const resources: ResourceSection[] = [
   {
-    category: 'Design Principles',
-    id: 'design-principles',
+    category: 'EWADA codebases',
+    id: 'code',
     icon: BookOpen,
     items: [
-      { title: 'AI Ethics Principles for Children', type: 'Image', href: '/resources/ai_ethics_principles_for_children.webp' },
-      { title: 'Framework for Designing Children\'s Agency', type: 'File', href: 'https://github.com/junszhao/ethical-design/blob/main/docs/',external: true }
+      { title: 'SOLID Simply Explained', type: 'link', href: 'https://www.youtube.com/watch?v=qWVTjMsv7AE&ab_channel=SimplyExplained',external: true },
+      { title: 'SOLID Research Paper', type: 'File', href: 'http://emansour.com/research/lusail/solid_protocols.pdf',external: true },
+      { title: 'SOLID Project on GitHub', type: 'link', href: 'https://github.com/solid',external: true },
+      { title: 'Slides: Solid: taking back the Web through decentralization by Ruben Verborgh', type: 'link', href: 'https://rubenverborgh.github.io/Slides-FOSDEM-2019/',external: true },
+      { title: 'Paradigm shifts for the decentralized Web', type: 'link', href: 'https://ruben.verborgh.org/blog/2017/12/20/paradigm-shifts-for-the-decentralized-web/',external: true },  
     ]
   },
   {
-    category: 'Research Publications',
-    id: 'research-publications',
+    category: 'Documentation',
+    id: 'documentation',
     icon: FileText,
     items: [
-      { title: 'Challenges and Opportunities in Translating Ethical AI Principles into Practice for Children', type: 'Paper', href: '/resources/wang2024challenges.pdf'},
-      { title: '12 Ways to Empower: Designing for Children\'s Digital Autonomy', type: 'Paper', href: '/resources/wang2023twelve.pdf'},
-      { title: 'Co-designing with Children to Cope with Datafication Online', type: 'Paper', href: '/resources/wang2023treat.pdf' },
-      { title: 'CHAITok: A Proof-of-Concept System Supporting Children\'s Sense of Data Autonomy on Social Media', type: 'Paper', href: '/resources/wang2024chaitok.pdf' }
+      { title: 'Solid Developer Tools and Libraries', type: 'link', href: 'https://github.com/solid/solidproject.org/blob/main/_posts/developers/apps/tools/2019-01-01-00_overview.md#authentication',external: true },
+      { title: 'Solid UI React Docs', type: 'link', href: 'https://solid-ui-react.docs.inrupt.com/?path=/story/intro--page',external: true },
+      { title: 'Solid Client Libraries Docs', type: 'link', href: 'https://docs.inrupt.com/developer-tools/javascript/client-libraries/',external: true },
+      { title: 'solid-client-authn', type: 'link', href: 'https://docs.inrupt.com/developer-tools/javascript/client-libraries/authentication/',external: true },
+      { title: 'Web Access Control Spec', type: 'link', href: 'https://solid.github.io/web-access-control-spec/',external: true },
+
+      { title: 'RDF Lib with Solid', type: 'link', href: 'https://linkeddata.github.io/rdflib.js/Documentation/webapp-intro.html',external: true },
+      { title: 'Using rdflib.js', type: 'link', href: 'https://github.com/solidos/solid-tutorial-rdflib.js',external: true },
+      { title: 'Ontologies and vocabularies', type: 'link', href: 'https://github.com/solid/vocab',external: true },
+      { title: 'List of Common Vocabularies', type: 'link', href: 'https://docs.inrupt.com/developer-tools/javascript/client-libraries/tutorial/use-vocabularies/',external: true },
+      { title: 'Solid Namespace Library: Collection of common RDF namespaces', type: 'link', href: 'https://github.com/solid/solid-namespace',external: true }
     ]
   },
   {
-    category: 'Case Studies',
-    id: 'case-studies',
+    category: 'External SOLID Apps Repositories',
+    id: 'apps',
     icon: FileText,
     items: [
-      {
-        title: 'A child-centred AI ecosystem to transform early year education',
-        type: 'GitHub Repo & Figma',
-        href: 'https://github.com/junszhao/ethical-design/tree/main/case_studies/case%20study%200',
-        external: true
-      },
-      { title: 'A child-centred system to support children with special education needs', 
-        type: 'GitHub Repo & Figma', 
-        href: 'https://github.com/junszhao/ethical-design/tree/main/case_studies/case%20study%201', 
-        external: true
-      },
-      { title: 'A child-centred system to help parents support children\'s social emotion learning', 
-        type: 'GitHub Repo & Figma', 
-        href: 'https://github.com/junszhao/ethical-design/tree/main/case_studies/case%20study%202', 
-        external: true
-      }
+      { title: 'Solid apps you can test and play around with', href: 'https://inrupt.com/solidApps/solid-app-listing',external: true },
+      { title: 'Pixolid', href: 'https://github.com/carloss8/pixolid/',external: true },
+      { title: 'MediaKraken', href: 'https://github.com/NoelDeMartin/media-kraken',external: true },
+      { title: 'SOLID Focus Task Manager', href: 'https://github.com/NoelDeMartin/solid-focus',external: true },
+      { title: 'SOLID Profile Viewer', href: 'https://gitlab.com/angelo-v/solid-profile-viewer',external: true },
+      { title: 'SOLID Groups', href: 'https://gitlab.com/angelo-v/solid-groups',external: true },
+      { title: 'SOLIDFlix', href: 'https://github.com/OxfordHCC/solid-media',external: true }
     ]
   },
   {
-    category: 'Educational Materials',
-    id: 'educational-materials',
+    category: 'Tutorials',
+    id: 'tutorials:',
     icon: Download,
     items: [
-      { title: 'Design for Agency Curriculum Package', type: 'GitHub Repo & Figma', href: 'https://github.com/junszhao/ethical-design', external: true },
-      { title: 'Workshop Facilitation Material', type: 'GitHub Repo & Figma', href: 'https://github.com/junszhao/ethical-design/tree/main/workshop_material', external: true }
+      { title: 'Getting started as a Solid developer', href: 'https://solidproject.org/developers/tutorials/getting-started',external: true },
+      { title: 'solidcommunity.net Walkthrough - User guide', href: 'https://github.com/SolidOS/userguide',external: true },
+      { title: 'Hosting a Web Page On Your Pod', href: 'https://solid.gitbook.io/solid-hacks/static-pages/hosting-a-web-page-on-your-pod',external: true },
+      { title: 'Building your first Solid app', href: 'https://solidproject.org//developers/tutorials/first-app',external: true },
+      { title: 'How to Build a Solid To-Do App with React', href: 'https://www.freecodecamp.org/news/create-a-solid-to-do-app-with-react/?ref=morioh.com&utm_source=morioh.com',external: true }
     ]
   }
 ]
@@ -95,7 +100,7 @@ export function ResourceGrid() {
                   <li key={i} className="flex items-center justify-between gap-4 p-3 rounded-lg hover:bg-muted transition-colors">
                     <div>
                       <div className="font-medium">{item.title}</div>
-                      <div className="text-sm text-muted-foreground">{item.type}</div>
+                      
                     </div>
                     {item.href ? (
                       <Button asChild variant="ghost" size="sm">

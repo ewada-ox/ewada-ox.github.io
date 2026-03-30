@@ -9,7 +9,7 @@ export default function ResourcesPage() {
             {'Resources'}
           </h1>
           <p className="text-xl md:text-2xl max-w-3xl mx-auto leading-relaxed text-pretty">
-            {'Access research, toolkits, and frameworks to implement ethical AI design principles'}
+            {'Here, we maintain a list of resources which may be useful for those new to Solid-based development.'}
           </p>
         </div>
         
