@@ -55,13 +55,13 @@ const resources: ResourceSection[] = [
     id: 'apps',
     icon: FileText,
     items: [
-      { title: 'Solid apps you can test and play around with', href: 'https://inrupt.com/solidApps/solid-app-listing',external: true },
-      { title: 'Pixolid', href: 'https://github.com/carloss8/pixolid/',external: true },
-      { title: 'MediaKraken', href: 'https://github.com/NoelDeMartin/media-kraken',external: true },
-      { title: 'SOLID Focus Task Manager', href: 'https://github.com/NoelDeMartin/solid-focus',external: true },
-      { title: 'SOLID Profile Viewer', href: 'https://gitlab.com/angelo-v/solid-profile-viewer',external: true },
-      { title: 'SOLID Groups', href: 'https://gitlab.com/angelo-v/solid-groups',external: true },
-      { title: 'SOLIDFlix', href: 'https://github.com/OxfordHCC/solid-media',external: true }
+      { title: 'Solid apps you can test and play around with', type: 'link', href: 'https://inrupt.com/solidApps/solid-app-listing',external: true },
+      { title: 'Pixolid', type: 'link', href: 'https://github.com/carloss8/pixolid/',external: true },
+      { title: 'MediaKraken', type: 'link', href: 'https://github.com/NoelDeMartin/media-kraken',external: true },
+      { title: 'SOLID Focus Task Manager', type: 'link', href: 'https://github.com/NoelDeMartin/solid-focus',external: true },
+      { title: 'SOLID Profile Viewer', type: 'link', href: 'https://gitlab.com/angelo-v/solid-profile-viewer',external: true },
+      { title: 'SOLID Groups', type: 'link', href: 'https://gitlab.com/angelo-v/solid-groups',external: true },
+      { title: 'SOLIDFlix', type: 'link', href: 'https://github.com/OxfordHCC/solid-media',external: true }
     ]
   },
   {
