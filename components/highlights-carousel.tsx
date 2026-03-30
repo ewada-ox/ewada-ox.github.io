@@ -119,7 +119,7 @@ export function HighlightsCarousel() {
                 {current.description}
               </p>
               
-              <Button asChild variant="ghost" variant="outline" size="sm">
+              <Button asChild variant="outline" size="sm">
                   <a
                     href={current.link}
                     target="_blank"
