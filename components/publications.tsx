@@ -78,6 +78,7 @@ export function ResourceGrid() {
     <section className="mb-20">
       <div className="grid md:grid-cols-1 gap-8">
       <ul>2026
+        <li>Rui Zhao, Vladyslav Melnychuk, Jesse Wright, Jun Zhao and Nigel Shadbolt. A Semantic Resource Suite for Privacy Policy Formalization. Accepted to the Resource Track of ISWC 2026. <a href="https://iswc2026.semanticweb.org/program/acceptedpapers" rel="noopener noreferrer">ISWC 2026 accepted papers</a></li>
         <li>1. Zhilin Zhang, Jun Zhao, Ge Wang, Sruthi Viswanathan, Tala Jo Ross, Samantha-Kaye Johnston, Diyi Liu, Hayoun Noh, Max Van Kleek, and Nigel Shadbolt. Attitudes, Imagined Roles, and Governance Boundaries for AI in Decentralized Social Media. In CHI 2026</li>
         <li>2. Panayiotis Danassis, Naman Goel. Can Vibe Coding Beat Graduate CS Students? An LLM vs. Human Coding Tournament on Market-driven Strategic Planning. Proceedings of the 25th International Conference on Autonomous Agents and Multiagent Systems, AAMAS 2026.<a href="http://arxiv.org/abs/2511.20613">[pdf]</a></li>
         <li>3. Qinyi Liu, Mohammad Khalil, Naman Goel. Causal Pre-training Under the Fairness Lens: An Empirical Study of TabPFN. Proceedings of the ACM Web Conference, TheWebConf (WWW) 2026.<a href="https://www.arxiv.org/abs/2601.17912">[pdf]</a></li>
